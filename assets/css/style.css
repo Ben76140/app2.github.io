@@ -1,0 +1,403 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "poppins";    
+}
+.overBtn:hover{
+    cursor: pointer;
+}
+
+/* MODALE */
+#back{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: none;
+}
+#modale{
+    background-color: white;
+    margin: 1rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    position: relative;
+}
+#close{
+    position: absolute;
+    right: 3rem;
+    top: 1.8rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+#modale h4{
+    margin: 0;
+    font-size: 1.4rem;
+}
+#modale p{
+    margin: .2rem;
+    font-size: 0.8rem;
+}
+#modaleIcons{
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+#modale input{
+    width: 100%;
+    padding: .5rem;
+    margin-top: .2rem;
+}
+#modale button{
+    width: 100%;
+    padding: .6rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    
+}
+/* HEADER */
+#img-header {
+    height: 40vh;
+    background-image: url(../img/app.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#download {
+    background-color: rgb(51, 170, 27);
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+#deskdownload p {
+    display: none;
+}
+
+#take-tour {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+/* SECTION APP1 */
+#app1 {
+    padding: 1rem;
+    padding-top: 4rem;
+}
+
+#app1 h1 {
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+#app1 h2 {
+    font-size: 3rem;
+    color: rgb(51, 170, 27);
+    margin: 1rem 0;
+}
+
+#appTxt>span {
+    font-size: 1.5rem;
+}
+
+#app1subTxt>i {
+    font-size: 1.3rem;
+}
+
+#app1subTxt>.fa-android {
+    color: rgb(51, 170, 27);
+}
+
+#app1subTxt>.fa-windows {
+    color: rgb(9, 121, 212);
+}
+
+#app1Btn {
+    text-align: center;
+    padding: 1rem;
+}
+
+#app1BtnDesk {
+    display: none;
+}
+
+#app1Img {
+    text-align: center;
+}
+
+/* SECTION APP2 */
+#app2 {
+    padding: 1rem;
+    padding-top: 4rem;
+    background-color: rgb(240, 240, 240);
+}
+
+#app2 img {
+    display: none;
+}
+
+#app2 h2 {
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+#app2 h3 {
+    font-size: 3rem;
+    color: rgb(243, 55, 55);
+    margin: 1rem 0;
+}
+
+#app2Txt>span {
+    font-size: 1.5rem;
+}
+
+/* SECTION APP3 */
+#app3 {
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+    padding-top: 4rem;
+
+}
+
+#app3>h2 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#app3>p {
+    text-align: center;
+    margin: 1rem 0;
+
+}
+
+#icones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#icones i {
+    font-size: 2rem;
+}
+
+#icones>div {
+    width: 25%;
+    text-align: center;
+}
+
+#icones .fa-bolt-lightning {
+    color: rgb(231, 170, 56);
+}
+
+#icones .fa-heart {
+    color: rgb(236, 62, 62);
+}
+
+#icones .fa-camera {
+    color: rgb(223, 223, 32);
+}
+
+#icones .fa-battery-full {
+    color: rgb(37, 185, 37);
+}
+
+#icones .fa-cloud {
+    color: rgb(55, 156, 214);
+}
+
+#icones .fa-earth-americas {
+    color: rgb(228, 190, 21);
+}
+
+#icones .fa-hard-drive {
+    color: rgb(27, 197, 197);
+}
+
+#icones .fa-shield-halved {
+    color: rgb(216, 150, 28);
+}
+
+#icones .fa-wifi {
+    color: rgb(155, 155, 155);
+}
+
+#icones .fa-image {
+    color: rgb(235, 24, 105);
+}
+
+/* SECTION APP4 */
+#app4 {
+    text-align: center;
+}
+
+#app4>h2 {
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+#app4>p {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+#app4Txt .case {
+    border-style: solid;
+    border-color: rgb(241, 236, 236);
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#app4Txt .case span {
+    font-weight: bolder;
+}
+
+#app4Txt .basic {
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: gray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#app4Txt .premium {
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: rgb(222, 16, 16);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#app4Txt .app4Btn {
+    background-color: rgb(239, 234, 234);
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#app4Txt .app4Btn>i {
+    font-size: 1.5rem;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+/* FOOTER */
+#footerLogo {
+    background-color: rgb(239, 234, 234);
+    text-align: center;
+    font-size: 1.5rem;
+    text-size-adjust: unset;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#footerLogo>p {
+    font-size: 1rem;
+}
+
+@media screen and (min-width:576px) {
+    #modale{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #close{
+        background-color: rgb(182, 182, 182);
+        padding: .5rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    
+    #deskdownload {
+        width: 350px;
+        height: fit-content;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.44);
+    }
+
+    #deskdownload p {
+        display: block;
+    }
+
+    #img-header {
+        flex-direction: row;
+        align-items: center;
+        height: 60vh;
+    }
+
+    #take-tour {
+        height: fit-content;
+        margin: 1rem;
+    }
+
+    /* SECTION APP1 */
+    #app1 {
+        display: flex;
+    }
+
+    #app1Btn {
+        display: none;
+    }
+
+    #app1BtnDesk {
+        padding: 1rem;
+        display: inline-block;
+        background-color: rgb(245, 245, 245);
+    }
+
+    /* SECTION APP2 */
+    #app2 img {
+        display: block;
+        margin-right: 3rem;
+    }
+
+    #app2 {
+        display: flex
+    }
+
+    /* SECTION APP3 */
+    #icones .dNone {
+        display: none;
+    }
+
+    /* SECTION APP4 */
+    #cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #cards>div {
+        width: 48%;
+    }
+}
