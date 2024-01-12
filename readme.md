@@ -12,8 +12,8 @@ A brief description of what this project does and who it's for
 
 ## Screenshots
 
-![App Screenshot](./assets/data/App2 Capture PC.png)
-![App Screenshot](./assets/data/App2 Capture Tel.png)
+![App2Desktop](./assets/data/app2desktop.png)
+![App2Mobile](./assets/data/app2mobile.png)
 
 
 ## Deployment
@@ -48,4 +48,5 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 - Additional browser support
 
 - Add more integrations
+
 
